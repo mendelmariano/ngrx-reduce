@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ],
             "scripts": []
           },
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "CursoNgrx"
+    }
+  },
+  "defaultProject": "CursoNgrx",
+  "cli": {
+    "analytics": false
+  }
 }
