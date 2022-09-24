@@ -96,12 +96,12 @@ export const UpdateUsuarioFail = createAction(
 
 export const DeleteUsuario = createAction(
     usuariosTypeAction.DELETE_USUARIO,
-    props<{payload: UsuarioModel}>()
+    props<{payload: number}>()
 );
 
 export const DeleteUsuarioSucess = createAction(
     usuariosTypeAction.DELETE_USUARIO_SUCCESS,
-    props<{payLoad: UsuarioModel}>()
+    props<{payLoad: number}>()
 );
 
 export const DeleteUsuarioFail = createAction(

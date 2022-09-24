@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { UsuariosEffects } from \"./usuarios/usuarios.effects\";\nimport { usuarioReducer } from \"./usuarios/usuarios.reducer\";\nexport const appReducer = {\n  usuarios: usuarioReducer\n};\nexport const appEffects = [UsuariosEffects];","map":null,"metadata":{},"sourceType":"module"}
